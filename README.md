@@ -4,6 +4,22 @@ The SharkNet Manager (SNM) Web Application is a web-based management layer built
 
 The application enables users to create, manage, and switch between SharkNet peers, interact with ASAP hubs, inspect messaging channels, and control runtime behavior without directly invoking CLI commands. It bridges the gap between SharkNet’s low-level runtime model and modern web-based system interaction.
 
+## My contribution (Yigit Peker)
+
+Group project (2 developers) with Othman Al Daood for the **Project Study** course at HTW Berlin, Summer Semester 2026, supervised by Prof. T. Schwotzer. This repository is a fork used for my portfolio. The team focus was the **frontend and REST API layers** of the SharkNet Messenger web app.
+
+Delivered by the team (17 of 19 roadmap items):
+
+- Tailwind CSS redesign with dark mode and responsive layouts on all pages
+- 4 languages (English, German, Turkish, Arabic) with RTL support, 490 translation keys
+- 10 pages built or redesigned: Login, Messenger, Peer Management, Settings, Certificates, Network, My Profile, PKI Tutorial, Hubs, About
+- Per-message **Trust Badge** with Identity Assurance score and hop-list popover, checked against the official SNM CLI and wiki
+- Encounter tracking (backend and UI) and TCP-to-peer correlation
+- Installable PWA with service worker, including a fix for a stale-cache bug
+- Fixed three project-level build issues: JAR version mismatch, Java 21 vs 17, Tomcat 9 vs 10
+
+Earlier research for this project: hands-on comparison of 6 decentralized messengers (Matrix, Tox, Bitmessage, Bitchat, Olvid, GNUnet), which shaped the feature roadmap.
+
 ---
 
 ## Prerequisites
